@@ -78,7 +78,7 @@ def delete_task(id):
 
 @app.route('/', methods=['GET'])
 def index():
-    return jsonify({'message': 'Welcome to my API'})
+    return jsonify({'message': 'Welcome to my API Testing'})
 
 
 
